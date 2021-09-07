@@ -5,8 +5,7 @@ import Greeting from '../components/greeting';
 
 const IndexPage = ()=>{
   return (
-    <Layout pageTitle="Home Page">
-      <p>This is a tutorial</p>
+    <Layout pageTitle="Home">
       <Greeting name="Mahlatse" />
       <StaticImage
         alt="home page image"
