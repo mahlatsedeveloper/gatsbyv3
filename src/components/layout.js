@@ -2,6 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 
 import Nav from "./nav"
+import Footer from "./footer"
 
 const Layout = ({ children }) => {
   return (
@@ -10,6 +11,7 @@ const Layout = ({ children }) => {
       <div className="container mx-auto py-8">
         {children}
       </div>
+      <Footer />
     </>
   )
 }

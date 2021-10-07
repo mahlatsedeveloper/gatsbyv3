@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 const Nav = () => {
     const linkStyle = `
-     Hover:opacity-70
+     Hover:opacity-100
      text-sm
      sm:text-lg
      px-2
